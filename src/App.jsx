@@ -9,7 +9,8 @@ const App = () => {
   return (
     <div className="container">
       <LanguageSelector />
-      <h1>{t("greeting")}</h1>
+      <h1>{t("greeting!!")}</h1>
+      <h2>{1+1} equals {2}</h2>
       <span>
         <Trans
           // i18nKey={"description.line1"}
